@@ -26,6 +26,7 @@ body {
     font-weight: bold;
     font-size: 20px;
     text-align: center;
+    box-shadow: 0px 0px 20px rgb(27, 70, 151);
 }
 .generate-btn:focus{
     outline: none;
@@ -75,6 +76,15 @@ margin-right: -4px;
 border-radius: 10px;
 cursor: pointer;
 }
+
+.button:hover{
+    box-shadow: 0px 0px 10px rgb(37, 73, 172);
+}
+
+.black-btn{
+    background-color: rgb(29, 24, 24);
+}
+
 .blink-me {
 color: #E0B612;
 }
@@ -83,6 +93,7 @@ color: #E0B612;
     margin-top: 20px;
     padding: 10px 120px;
     border-radius: 5px;
+    box-shadow: 0px 0px 20px rgb(27, 70, 151);
     background: #495BC3;
     color: #fff;
 }
@@ -103,3 +114,11 @@ color: #E0B612;
     color: #FF3C5F;
     margin-top: 10px;
 }
+
+#login-success, #login-failed, #no-try{
+    display: none;
+}
+
+input[type="text"]:disabled {
+    background: #373f4c;
+  }
